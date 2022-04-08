@@ -1,0 +1,47 @@
+.portfolioListElement{
+    border: 1px solid rgb(216, 212, 212);
+    border-left: 5px solid orange;
+    margin: 5px;
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    
+}
+
+.portfolioListElementIndex{
+    font-weight: 900;
+    font-size: 50px;
+    color: rgb(175, 199, 197);
+    margin: 5%;
+}
+
+.portfolioListElementInfo{
+    font-size: 80%;
+
+}
+
+.portfolioListElementName{
+    cursor: pointer;
+    font-size: 120%;
+    color: rgb(64, 81, 95);
+}
+
+.GreenLight {
+    color: rgb(20, 238, 93);
+    font-weight: 900;
+}
+
+.RedLight{
+    color: rgb(255, 94, 0);
+    font-weight: 900;
+}
+
+.portfolioListBar {
+    width: 30%;
+    margin-right: 5px;
+    overflow-y: scroll
+}
+
+.portfolioDetails{
+    width: 70%;
+    margin-left: 5px;
+}

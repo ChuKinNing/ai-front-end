@@ -1,0 +1,81 @@
+.portfolioDetails {
+    width: 80%;
+    margin: auto;
+    /* background-color: rgb(211, 211, 211); */
+    color: rgb(126, 141, 140);
+}
+
+.portfolioDetails > div{
+    margin-bottom: 20px;
+}
+
+.portfolioHeader {
+    border: 1px solid rgb(228, 228, 228);
+    border-left: 5px solid rgb(255, 145, 0);
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+    /* display: flex; */
+}
+
+.portfolioName {
+    font-size: 300%;
+}
+
+.portfolioStatus {
+    display: flex;
+    border: 1px solid rgb(228, 228, 228);
+    border-left: 5px solid rgb(102, 150, 168);
+}
+
+.portfolioStatus div{
+    margin-left: 10px;
+}
+
+
+
+.portfolioHeader div{
+    margin-left: 15px;
+}
+
+.portfolioWeightedStockTable{
+    height: 50vh;
+    overflow-y: scroll;
+}
+
+.portfolioStockBar {
+    display: flex;
+    border-left: 5px solid rgb(240, 237, 92);
+    font-size: 125%;
+    margin-bottom: 5px;
+}
+
+.portfolioStock {
+    display: flex;
+    border: 1px solid rgb(228, 228, 228);
+    border-left: 5px solid rgb(30, 30, 119);
+    margin-bottom: 5px;
+}
+
+.portfolioStock{
+    margin-left: 5px;
+}
+
+.portfolioStockSymbol{
+    width: 10%;
+}
+
+.portfolioStockName{
+    width: 40%;
+}
+
+.portfolioStockSector{
+    width: 30%;
+}
+
+.portfolioStockWeight{
+    width: 20%;
+}
+
+.portfolioOperation{
+    display: flex;
+}

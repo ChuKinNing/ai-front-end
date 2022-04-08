@@ -1,0 +1,142 @@
+
+.stockGraph {
+    height: 30vh;
+    border: 1px solid rgb(216, 212, 212);
+    border-left: 5px solid rgb(80, 73, 122);
+    background-color: rgba(255, 255, 255, 0.993);
+    display: flex;
+}
+
+.liveStockList {
+    width: 60%;
+    overflow-y: scroll;
+}
+
+.liveStockListItem {
+    display: flex;
+    border: 1px solid grey;
+    font-size: 80%;
+}
+
+.liveStockListItem > div {
+    margin-left: 20px;
+    
+}
+
+.liveStockListItemIndex{
+    width: 5%;
+}
+
+.liveStockListItemLabel {
+    width: 5%;
+}
+
+.liveStockListItemName {
+    width: 50%;
+}
+
+.liveStockListItemSector{
+    width: 40%;
+}
+
+
+.panelBar {
+    height: 5vh;
+    display: flex;
+    border: 1px solid rgb(216, 212, 212);
+    background-color: rgb(41, 61, 83);
+    border-left: 5px solid rgb(192, 214, 252);
+    color: white;
+}
+
+.editPanel {
+    height: 45vh;
+    border: 1px solid rgb(216, 212, 212);
+    border-left: 5px solid rgb(19, 188, 255);
+    overflow-y: scroll
+}
+
+.panelBar-element-number{
+    width: 10%;
+    margin: auto;
+    text-align: center;
+}
+
+.panelBar-element-stock{
+    width: 15%;
+    margin: auto;
+    text-align: center;
+}
+
+.panelBar-element-companyName{
+    width: 25%;
+    margin: auto;
+    text-align: center;
+}
+
+.panelBar-element-sector{
+    width: 20%;
+    margin: auto;
+    text-align: center;
+}
+
+.panelBar-element-action{
+    width: 30%;
+    margin: auto;
+    text-align: center;
+}
+
+.panel-element-number{
+    width: 10%;
+    /* border: 1px solid black; */
+    text-align: center;
+}
+
+.panel-element-stock{
+    width: 15%;
+    /* border: 1px solid black; */
+    text-align: center;
+}
+
+.panel-element-companyName{
+    width: 25%;
+    /* border: 1px solid black; */
+    text-align: center;
+}
+
+.panel-element-sector{
+    width: 20%;
+    /* border: 1px solid black; */
+    text-align: center;
+}
+
+.panel-element-action{
+    width: 30%;
+    /* border: 1px solid black; */
+    text-align: center;
+}
+
+
+.stock-input{
+    display: flex;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-left: 5px solid rgb(30, 163, 47);
+    margin: 5px;
+    background-color: rgb(221, 220, 220);
+}
+
+.sidebarWrapper {
+    color: white;
+}
+
+.portfolioSetting{
+    border: 1px solid rgb(216, 212, 212);
+    border-left: 5px solid rgb(227, 243, 0);
+    padding-left: 5px;
+    display: flex;
+}
+
+.portfolioAllowShort{
+    margin-left: 30px;
+}

@@ -1,0 +1,46 @@
+.analyzeResultPanel > div{
+    margin-bottom: 20px;
+}
+
+.selectYear {
+    display: flex;
+}
+
+.selectYear div{
+    margin-left: 5px;
+}
+
+.sessionName {
+    text-align: center;
+    font-size: 100%;
+}
+
+.analyzeResultOverview{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.overallValue{
+    display: flex;
+}
+
+.analyzeResultSectorPerformance{
+    width: 100%;
+    height: 40vh;
+    margin-left: 10px;
+    margin: 0 auto;
+}
+
+
+.analyzeResultSector{
+    width: 100%;
+    height: 40vh;
+    margin: 0 auto;
+}
+
+.analyzeResultIndividualPerformance{
+    height: 40vh;
+    overflow-y: scroll;
+    margin: 0 auto;
+
+}

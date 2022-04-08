@@ -1,0 +1,89 @@
+.container{
+    display: flex;
+    border: 0;
+}
+
+.dashboard{
+    margin-top: 50px;
+    margin-left: 30vh;
+    width: 80%;
+    background-color: white;
+}
+
+.sidebar{
+    /* background-color: #4b517c; */
+    /* background-color: #272f66; */
+    background-color: rgb(33, 39, 63);
+    width: 30vh;
+    position: fixed;
+    top: 50px;
+    bottom: 0;
+    left: 0;
+    z-index: 2;
+}
+
+.sidebar li{
+    cursor: pointer;
+    margin: 10px;
+}
+
+.navbar{
+    width: 100%;
+    height: 50px;
+    background-color: #272f66;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    border-width: 0px ;
+    color: white;
+}
+
+.navbarWrapper{
+    height: 100%;
+    padding: 0px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbarRight a{
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    overflow: hidden;
+    color: white;
+}
+
+.logo{
+    font-size: larger;
+    font: white;
+    /* font-weight: bold; */
+}
+
+.index {
+    background-color: #272f66;
+    top:0px;
+    right:0px;
+    bottom:0px;
+    left:0px;
+    position:absolute;
+}
+
+.title {
+    color: white;
+    font-size: 100px;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.login {
+    margin-left: auto;
+    margin-right: auto;
+    width: 10%;
+    /* border: 1px solid black; */
+}
+
+/* .main {
+    background-color: rgb(199, 235, 255);
+} */

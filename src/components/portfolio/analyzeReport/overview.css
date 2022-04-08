@@ -1,0 +1,19 @@
+.portfolioValue {
+    width: 50%;
+    background-color: rgb(142, 196, 243);
+}
+
+.overviewBox {
+    font-size: 300%;
+    color: white;
+}
+
+.unrealizedGain {
+    width: 50%;
+    background-color: rgb(255, 177, 8);
+
+}
+
+.OverviewBoxTitle{
+    font-size: 50%;
+}

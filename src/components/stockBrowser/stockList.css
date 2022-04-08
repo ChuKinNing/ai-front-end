@@ -1,0 +1,48 @@
+.stockBrowser{
+    display: flex;
+}
+
+.stockList {
+    width: 30%;
+    height: 85vh;
+    margin-right: 5px;
+    overflow-y: scroll;
+    /* border: 1px solid black; */
+    font-family: monospace;
+}
+
+.stockListStock {
+    border: 1px solid rgb(216, 212, 212);
+    border-left: 5px solid orange;
+    margin: 5px;
+    margin-bottom: 10px;
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+.stockListStock > div {
+    margin-left: 5px;
+}
+
+
+
+.sotckListStockLabel {
+    font-family: Fantasy;
+}
+
+.stockDetails{
+    width: 70%;
+    height: 85vh;
+    margin-left: 5px;
+    overflow-y: scroll;
+}
+
+.stockDetailBasicInfo{
+    border: 1px solid rgb(216, 212, 212);
+    border-left: 3px solid rgb(90, 87, 231);
+}
+
+.stockDetailInfoBox{
+    border: 1px solid rgb(216, 212, 212);
+    border-left: 3px solid rgb(90, 87, 231);
+}

@@ -1,0 +1,13 @@
+
+.portfolio{
+    margin: 0 auto;
+    display: flex;
+    width: 100%;
+    height: 80%;
+    /* background-color: rgb(221, 243, 255); */
+    /* background-color: rgb(216, 148, 0); */
+}
+
+.portfolioBuilder {
+    width: 70%;
+}
