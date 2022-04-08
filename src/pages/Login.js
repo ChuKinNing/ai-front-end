@@ -8,7 +8,7 @@ export default function Login() {
 
   const responseGoogle = (response) => {
     // console.log(response);
-    axios.post("/api/token/obtain/", {
+    axios.post("https://ai-fund-backend.herokuapp.com/api/token/obtain/", {
             token: response.tokenId,
         }).then((res) => {
             // console.log(res.data);
