@@ -3,7 +3,7 @@ import axios from "axios";
 const axiosAPI = axios.create({
   // "http://localhost:8000"
   // "https://ai-fund-backend.herokuapp.com"
-  baseURL: "https://ai-fund-backend.herokuapp.com",
+  baseURL: "http://localhost:8000",
   headers: {
     Authorization: "Bearer " + localStorage.getItem("access_token"), // 帶著 access token
     "Content-Type": "application/json",
