@@ -5,5 +5,5 @@ This is my senior design project, which make use of sko and some existing AI alg
 ReactJS
 Django
 
-# status
+# Status
 It is currently deployed on Heroku.
