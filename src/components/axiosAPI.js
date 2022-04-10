@@ -5,7 +5,7 @@ const axiosAPI = axios.create({
   // "https://ai-fund-backend.herokuapp.com"
   baseURL: "https://ai-fund-backend.herokuapp.com",
   headers: {
-    Authorization: "Bearer " + localStorage.getItem("access_token"), // 帶著 access token
+    Authorization: "Bearer " + localStorage.getItem("access_token"), 
     "Content-Type": "application/json",
     accept: "application/json",
   },
