@@ -16,7 +16,7 @@ axiosAPI.interceptors.response.use(
   (error) => {
     const originalRequest = error.config;
     if (error.response.status === 401 && error.response.statusText === "Unauthorized") {
-      // access token -> 向 API 拿新的 token
+
       const refresh_token = localStorage.getItem("refresh_token");
       return axios
         .post("/api/token/refresh/", { refresh: refresh_token })
@@ -27,7 +27,7 @@ axiosAPI.interceptors.response.use(
           return axiosAPI(originalRequest);
         })
         .catch((err) => {
-          // refresh token 過期 -> 直接當作完全沒有登入
+
           localStorage.removeItem("refresh_token");
           window.location.href = "/login";
         });
